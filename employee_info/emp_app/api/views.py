@@ -6,6 +6,10 @@ from emp_app.models import employees,salaries,departments,titles
 class post_api_employees(CreateAPIView):
     serializer_class = employees_serializer
     queryset = employees.objects.all()
+class get_api_emp_info(RetrieveAPIView):
+    serializer_class = employees_serializer
+    queryset = employees.objects.all()
+
 
 
 
