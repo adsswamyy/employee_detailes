@@ -19,7 +19,7 @@ from emp_app.api import views
 urlpatterns = [
 
     url(r'^emp_api/', views.post_api_employees.as_view()),
-    url(r'^get_api/(?P<pk>\d+)$', views.get_api_emp_info.as_view()),
+    url(r'^get_api/(?P<pk>\d+)$', views.get_api_employees.as_view()),
 
 
 
