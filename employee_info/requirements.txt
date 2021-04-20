@@ -27,7 +27,7 @@ numpy==1.16.4
 pathlib2==2.3.3
 Pillow==6.1.0
 pluggy==0.8.1
-py==1.7.0
+py==1.10.0
 pycparser==2.19
 Pygments==2.3.1
 PyMySQL==0.9.3
